@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/67c029cf3c.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        color1: '#FF0000',
+                        color2: '#FF8938',
+                        color3: '#F4F4F4',
+                    },
+                    fontFamily: {
+                        Manrope: ["Manrope", "sans-serif"],
+
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="w-full max-w-6xl mx-auto flex flex-col md:flex-row py-16">
+            <div>
+                <h1 class="font-Manrope text-4xl lg:text-6xl font-extrabold">It's good <br>
+                    tea time at <br> The <br>
+                    Tea House</h1>
+                <p class="w-3/4 py-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="bg-gradient-to-r from-color2 to-color1 px-5 py-2 rounded-lg">Explore More</button>
+            </div>
+            <div class="">
+                <div>
+                    <img src="./images/banner.png" alt="" class="">
+                </div>
+                <div
+                    class="flex shadow-xl w-fit mx-auto md:w-fit p-5 rounded-lg items-center justify-center md:-mt-20 md:ml-28 bg-white md:absolute ">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-star text-yellow-400 px-3"></i>
+                    </div>
+                    <div class="">
+                        <h3 class="font-bold text-xl">5.00</h3>
+                        <p>Trust pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Our Featured Products section  -->
+        <section>
+            <div class="w-full max-w-6xl mx-auto my-10">
+                <div class="text-center">
+                    <h1 class="font-bold text-5xl">Our Featured Products</h1>
+                    <p class="w-1/2 my-4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. </p>
+                </div>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 px-2">
+                        <div class="bg-gradient-to-b from-color3 to-color3 py-7 px-16 text-center rounded-lg flex flex-col items-center">
+                            <img src="./images/tea-1.png" alt="" class="object-center">
+                            <h1 class="font-bold text-2xl">Milk Tea</h1>
+                            <p>Creamer could be replaced by fresh milk</p>
+                        </div>
+                        <div class="bg-gradient-to-b from-color3 to-color3 py-7 px-16 text-center rounded-lg flex flex-col items-center">
+                            <img src="./images/tea-2.png" alt="">
+                            <h1 class="font-bold text-2xl">Milk Tea</h1>
+                            <p>Creamer could be replaced by fresh milk</p>
+                        </div>
+                        <div class="bg-gradient-to-b from-color3 to-color3 py-7 px-16 text-center rounded-lg flex flex-col items-center">
+                            <img src="./images/tea-3.png" alt="">
+                            <h1 class="font-bold text-2xl">Milk Tea</h1>
+                            <p>Creamer could be replaced by fresh milk</p>
+                        </div>
+                        <div class="bg-gradient-to-b from-color3 to-color3 py-7 px-16 text-center rounded-lg flex flex-col items-center">
+                            <img src="./images/tea-4.png" alt="">
+                            <h1 class="font-bold text-2xl">Milk Tea</h1>
+                            <p>Creamer could be replaced by fresh milk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
